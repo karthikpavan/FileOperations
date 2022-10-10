@@ -64,6 +64,21 @@
 -> OpenFeign has been integrated (link: https://github.com/karthikpavan/FeignClientforFileOperation)
 ![image](https://user-images.githubusercontent.com/10458982/194954803-bb434c0c-6904-462c-bae8-7f8c8c03dc24.png)
 
+-> URL
+
+http://localhost:4040/api/file/v1/storeFile
+
+http://localhost:4040/api/file/v1/viewFile/2
+
+http://localhost:4040/api/file/v1/findFile/2
+
+http://localhost:4040/api/file/v1/files
+
+http://localhost:4041/feignFile/delete/12
+
+http://localhost:4040/api/post/v1/update/3
+
+-> application will run on 4040 port restricted to localhost
 
 -> Project designed in Java8 Spring using Gradle as build tool with other latest technologies included
 
