@@ -69,7 +69,7 @@
 
 *---Pending---*
 
-->  with apologies, due to time restricition didn't implemented :(
+->  with apologies, due to time restricition didn't implemented :( 
 
 
 
