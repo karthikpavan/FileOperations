@@ -74,7 +74,7 @@ http://localhost:4040/api/file/v1/findFile/2
 
 http://localhost:4040/api/file/v1/files
 
-http://localhost:4041/feignFile/delete/12
+http://localhost:4040/api/file/v1/delete/2
 
 http://localhost:4040/api/post/v1/update/3
 
