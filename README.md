@@ -82,13 +82,4 @@ http://localhost:4040/api/post/v1/update/3
 
 -> Project designed in Java8 Spring using Gradle as build tool with other latest technologies included
 
-*---Pending---*
-
-->  with apologies, due to time restricition didn't implemented :( 
-
-
-
-
-
-
 
