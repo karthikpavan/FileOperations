@@ -48,6 +48,8 @@ public class PostControllerTest {
 
         Post post = new Post(1l, "first comment");
 
+        Mockito.when(postRepository.save(Mockito.any(Post.class))).thenReturn(new Post());
+        
         mockMvc.perform(post("/api/post/v1/savePost")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(post)))
