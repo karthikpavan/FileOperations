@@ -56,6 +56,8 @@ public class FileControllerTest {
         InputStream inputStream = new FileInputStream(file);
         MockMultipartFile multipartFile = new MockMultipartFile("file", "fileContentForTest.text",
                 MediaType.MULTIPART_FORM_DATA_VALUE, inputStream);
+        
+        Mockito.when(fileRepository.save(Mockito.any(FileData.class))).thenReturn(new FileData());
 
         mockMvc.perform(MockMvcRequestBuilders.multipart("/api/file/v1/storeFile")
                         .file(multipartFile)
